@@ -2,6 +2,8 @@
 
 A Filament plugin that provides an editable text input entry component for infolists. This component allows users to edit text fields directly in the infolist view without navigating to an edit page.
 
+![Black and White Simple Minimalist Pitch Deck Marketing Presentation](https://github.com/user-attachments/assets/6685eae7-c376-45ab-ac32-f28a6fd819a6)
+
 ## Features
 
 - ✨ Inline editing directly in infolist views

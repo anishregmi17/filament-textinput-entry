@@ -4,20 +4,20 @@ A Filament plugin that provides an editable text input entry component for infol
 
 ## Features
 
--   ✨ Inline editing directly in infolist views
--   🎨 Customizable border styling
--   ✅ Built-in validation support
--   🔔 Instant success notifications
--   🎯 Icon support (before/after)
--   🌈 Color customization
--   �� Responsive design
--   🔄 **Compatible with Filament v3 and v4**
+- ✨ Inline editing directly in infolist views
+- 🎨 Customizable border styling
+- ✅ Built-in validation support
+- 🔔 Instant success notifications
+- 🎯 Icon support (before/after)
+- 🌈 Color customization
+- �� Responsive design
+- 🔄 **Compatible with Filament v3 and v4**
 
 ## Requirements
 
--   PHP 8.1+
--   Filament 3.0+ or 4.0+
--   Laravel 10+
+- PHP 8.1+
+- Filament 3.0+ or 4.0+
+- Laravel 10+
 
 ## Installation
 
@@ -34,14 +34,6 @@ composer require anish/text-input-entry
 After installing the package, publish and build the assets:
 
 ```bash
-npm install
-npm run build
-```
-
-Or if you're using the package in development:
-
-```bash
-cd packages/TextInputEntry
 npm install
 npm run build
 ```
@@ -157,22 +149,22 @@ TextInputEntry::make('name')
 
 ## Available Methods
 
--   `editable(bool|Closure $editable)` - Enable/disable editing
--   `border(bool|Closure $showBorder)` - Show/hide border (default: true)
--   `rules(array|string|Closure $rules)` - Validation rules
--   `updateStateUsing(Closure $callback)` - Custom update callback
--   `size(TextSize $size)` - Text size (Small, Medium, Large)
--   `color(string|array $color)` - Text color
--   `icon(string $icon)` - Icon name
--   `iconPosition(string $position)` - Icon position ('before' or 'after')
--   `placeholder(string $placeholder)` - Input placeholder
+- `editable(bool|Closure $editable)` - Enable/disable editing
+- `border(bool|Closure $showBorder)` - Show/hide border (default: true)
+- `rules(array|string|Closure $rules)` - Validation rules
+- `updateStateUsing(Closure $callback)` - Custom update callback
+- `size(TextSize $size)` - Text size (Small, Medium, Large)
+- `color(string|array $color)` - Text color
+- `icon(string $icon)` - Icon name
+- `iconPosition(string $position)` - Icon position ('before' or 'after')
+- `placeholder(string $placeholder)` - Input placeholder
 
 ## Compatibility
 
 This package supports:
 
--   ✅ Filament v3.0+
--   ✅ Filament v4.0+
+- ✅ Filament v3.0+
+- ✅ Filament v4.0+
 
 The package automatically detects and works with both versions.
 

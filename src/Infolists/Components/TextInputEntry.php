@@ -27,7 +27,7 @@ class TextInputEntry extends TextEntry
 
     protected bool|Closure|null $editable = null;
 
-    protected bool|Closure $showBorder = true;
+    protected bool|Closure $showBorder = false;
 
     public function updateStateUsing(?Closure $callback): static
     {
@@ -186,4 +186,3 @@ class TextInputEntry extends TextEntry
         return $this->getIconPosition();
     }
 }
-

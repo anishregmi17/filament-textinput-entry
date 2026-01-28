@@ -13,12 +13,12 @@ A Filament plugin that provides an editable text input entry component for infol
 - 🎯 Icon support (before/after)
 - 🌈 Color customization
 - �� Responsive design
-- 🔄 **Compatible with Filament v3 and v4**
+- 🔄 **Compatible with Filament v3, v4, and v5**
 
 ## Requirements
 
 - PHP 8.1+
-- Filament 3.0+ or 4.0+
+- Filament 3.0+, 4.0+, or 5.0+
 - Laravel 10+
 
 ## Installation
@@ -167,8 +167,9 @@ This package supports:
 
 - ✅ Filament v3.0+
 - ✅ Filament v4.0+
+- ✅ Filament v5.0+
 
-The package automatically detects and works with both versions.
+The package automatically detects and works with all supported versions.
 
 ## License
 
